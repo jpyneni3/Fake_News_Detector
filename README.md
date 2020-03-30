@@ -5,3 +5,4 @@ CS 7650/4650 Course Project
 | File Name               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
 | Uncleaned Data/fake.csv | Fake News articles from Kaggle: https://www.kaggle.com/mrisdal/fake-news |
+| Cleaned_Data/Real_Scrapped.csv | Real News scraped from online, cleaned to url, title,text |
