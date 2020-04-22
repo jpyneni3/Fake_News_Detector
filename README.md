@@ -2,7 +2,10 @@
 CS 7650/4650 Course Project
 
 
-| File Name               | Description                                                              |
+| Directory               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
-| Uncleaned Data/fake.csv | Fake News articles from Kaggle: https://www.kaggle.com/mrisdal/fake-news |
-| Cleaned_Data/Real_Scrapped.csv | Real News scraped from online, cleaned to url, title,text |
+| Augmentation Data | Cleaned data generated through data augmentation |
+| Cleaned Data | Aggressively cleaned original data  |
+| Experiments | Documentation of each experiment |
+| Notebooks | Notebooks used for data aggregation and augmentation |
+| Uncleaned Data | original data without cleaning | 
