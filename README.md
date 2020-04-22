@@ -51,3 +51,19 @@ There are three times where the data needs to be cleaned:
     Semi cleaning of collected data to prepare for data augmentation
 3) Augmentation Data --> Clean Augmentation Data:
     Agressive cleaning of augmented data to run models on
+
+In each step, the data cleaning notebook is at Notebooks/DataPreprocessing/DataCleaning.ipynb. In the notebook, you can specify where to pull the data from and where to put after cleaning. For either of the aggressive cleanings, use the clean_column method and for the middle process, use the semi_clean_column method. The notebook right now contains the code to agressively clean the Synonym Replacement Augmentation Data for readying for models.
+
+## 3) Data Augmentation
+### Requirements:
+```
+pandas
+nltk
+torch
+fastBPE
+sacremoses
+```
+| Augmentation Technique   | Location  | Steps |
+|-------------------------|---------------------| ------------------------------------------|
+|Synonym Replacement| Notebooks/DataAugmentation/Synonym Replacement.ipynb | Run the notebook and it will automatically collect the semi clean data and run Synonym Replacement. Takes about 5 minutes.|
+|Backtranslation | Notebooks/DatAugmentation/Backtranslation.ipynb | Highly recommend to run on Google Colab with GPU Enabled. Copy the semi cleaned data into the "contents" and give access to your google drive account, from where you can take the backtranslation data. Takes about 26 hours with GPU.|
