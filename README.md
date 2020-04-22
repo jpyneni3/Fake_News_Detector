@@ -11,6 +11,16 @@ CS 7650/4650 Course Project
 | Uncleaned Data | original data without cleaning |
 
 ## 1) Data Collection
+### Requirements (only for Scrapper tool)
+Python Libraries:
+```
+pandas
+feedparser
+json
+newspaper
+csv
+urllib.parse
+```
 
 | File | Location | Source|
 |--------------|--------------------------|----------------------|
@@ -22,4 +32,22 @@ CS 7650/4650 Course Project
 
 Most of the the datasets were downloaded directly from the sources. The Kaggle Real News dataset was too large to put on Github before cleaning so it was directly added to cleaned data after pre-processing for necessary articles.
 
-The web scraped real news was obtained by running the scrapper tool (Notebooks/Scrapper.ipynb). The tool reads from specified RSS feeds (Notebooks/News_RSS.json) to extract the latest news. It was ran several times over the course of five days to obtain the current set of data. 
+The web scraped real news was obtained by running the scrapper tool (Notebooks/Scrapper.ipynb). The tool reads from specified RSS feeds (Notebooks/News_RSS.json) to extract the latest news. It was ran several times over the course of five days to obtain the current set of data.
+
+
+## 2) Data Pre-Processing/Cleaning
+### Requirements
+Python Libraries:
+```
+nltk
+pandas
+numpy
+```
+
+There are three times where the data needs to be cleaned:
+1) Unclean Data  --> Cleaned Data :
+    Agressive cleaning of collected data to run base models on
+2) Unclean Data --> Semi Clean Data:
+    Semi cleaning of collected data to prepare for data augmentation
+3) Augmentation Data --> Clean Augmentation Data:
+    Agressive cleaning of augmented data to run models on
