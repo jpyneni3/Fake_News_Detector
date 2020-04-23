@@ -1,6 +1,15 @@
 # Fake_News_Detector
 CS 7650/4650 Course Project
 
+### Table of Contents
+**[1) Data Collection](#data-collection)**<br>
+<!-- **[Usage Instructions](#usage-instructions)**<br>
+**[Troubleshooting](#troubleshooting)**<br>
+**[Compatibility](#compatibility)**<br>
+**[Notes and Miscellaneous](#notes-and-miscellaneous)**<br>
+**[Building the Extension Bundles](#building-the-extension-bundles)**<br>
+**[Next Steps, Credits, Feedback, License](#next-steps)**<br> -->
+
 
 | Directory               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
@@ -73,3 +82,7 @@ Examples:
 a) Augementation Data/semi cleaned/LIAR.csv --> LIAR dataset semi cleaned to run Data Augementation on  
 b) Augementation Data/LIAR_SR.csv --> Output of running Synonym Replacement on semi cleaned LIAR dataset  
 c) Augementation Data/LIAR_SR_clean.csv --> Aggressively cleaned Synonym Replacement output from LIAR dataset
+
+## 4) Data Modeling
+
+## 5) Web App
