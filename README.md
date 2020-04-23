@@ -4,8 +4,8 @@ CS 7650/4650 Course Project
 ### Table of Contents
 **[1) Data Collection](#1-data-collection)**<br>
 **[2) Data Pre-Processing/Cleaning](#2-data-pre-processingcleaning)**<br>
-**[3) Data Augmentation](#3-data-augmentation) **<br>
-<!-- **[3) Data Augmentation](#3-data-augmentation)**<br> -->
+**[3) Data Augmentation](#3-data-augmentation)**<br>
+
 
 
 | Directory               | Description                                                              |
