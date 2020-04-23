@@ -69,7 +69,7 @@ sacremoses
 |Backtranslation | Notebooks/DatAugmentation/Backtranslation.ipynb | Highly recommend to run on Google Colab with GPU Enabled. Copy the semi cleaned data into the "contents" and give access to your google drive account, from where you can take the backtranslation data. Takes about 26 hours with GPU.|
 
 Data in the Augmentation Data/semi cleaned is the data upon which to run data augmentation. The outputs of those are placed in the parent directory Augmentation Data with a \_SR or \_BT appended to the file name to denote output of Synonym Replacement or Backtranslation, respectively. Furthermore, this augmented data is pulled from the Augmentation Data for aggressive cleaning (3rd cleaning step above) and placed back in the same directory with a \_clean appended to the file name.
-Examples:
+Examples:  
 a) Augementation Data/semi cleaned/LIAR.csv --> LIAR dataset semi cleaned to run Data Augementation on  
 b) Augementation Data/LIAR_SR.csv --> Output of running Synonym Replacement on semi cleaned LIAR dataset  
 c) Augementation Data/LIAR_SR_clean.csv --> Aggressively cleaned Synonym Replacement output from LIAR dataset
