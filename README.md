@@ -15,6 +15,7 @@ This repository contains the large corpus of fake and real news data. It also co
 **[5) Experiment Outputs](#5-experiment-outputs)**<br>
 
 
+
 | Directory               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
 | Augmentation Data | Cleaned data generated through data augmentation |
@@ -111,7 +112,7 @@ Three specific models were trained to detect fake news: Naive Bayes, LSTM, and B
 | LSTM | Notebooks/Models/LSTM.ipynb | Run the notebook on Google Colab after uploading the required data files (combined_*.csv) to the root directory. This notebook takes about 10 minutes to run. |
 | BERT | Notebooks/Models/BERT.ipynb | Run the notebook on Google Colab after uploading the required data files (combined_*.csv) to the root directory. There are four cells that are commented out and should be uncommented depending on which data augmentation experiment you would like to run (None, Grover, Synonym Replacement, or Back Translation). Each experiment has its own additional required data files (indicated in the notebook) that need to be uploaded to the root directory. This notebook takes anywhere from 30 minutes to several hours depending on the experiment. |
 
-## 4) Experiments
+## 4) Experiments Outputs
 
 The experiments folder contains some of the PDF notebook outputs for the experiments we ran for model analysis and comparing different augmentation techniques.
 
