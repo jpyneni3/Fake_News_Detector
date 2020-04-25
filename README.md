@@ -15,7 +15,6 @@ This repository contains the large corpus of fake and real news data. It also co
 **[5) Experiment Outputs](#5-experiment-outputs)**<br>
 
 
-
 | Directory               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
 | Augmentation Data | Cleaned data generated through data augmentation |
